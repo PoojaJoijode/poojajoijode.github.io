@@ -1,0 +1,13 @@
+.background-grid {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 15% 12%, rgba(56, 189, 248, 0.22), transparent 28%),
+    radial-gradient(circle at 85% 10%, rgba(20, 184, 166, 0.16), transparent 26%),
+    radial-gradient(circle at 50% 90%, rgba(99, 102, 241, 0.18), transparent 34%),
+    linear-gradient(transparent 0, transparent 31px, rgba(148, 163, 184, 0.05) 32px),
+    linear-gradient(90deg, transparent 0, transparent 31px, rgba(148, 163, 184, 0.05) 32px);
+  background-size: auto, auto, auto, 32px 32px, 32px 32px;
+  opacity: 0.9;
+}

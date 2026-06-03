@@ -1,0 +1,40 @@
+pooja-react-vite-portfolio/
+├── public/
+│   └── assets/
+│       ├── favicon.svg
+│       ├── pooja-profile.webp
+│       └── Pooja_Joijode_Resume.pdf
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Certifications.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Education.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skills.jsx
+│   │   └── index.js
+│   ├── hooks/
+│   │   └── useTheme.js
+│   ├── styles/
+│   │   ├── variables.css
+│   │   ├── base.css
+│   │   ├── background.css
+│   │   ├── navbar.css
+│   │   ├── hero.css
+│   │   ├── blocks.css
+│   │   ├── footer.css
+│   │   └── responsive.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── index.html
+├── vite.config.js
+├── package.json
+└── README.md
