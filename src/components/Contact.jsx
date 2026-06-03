@@ -3,10 +3,10 @@ function Contact() {
     <section className="section container" id="contact">
       <div className="contact-card content-card interactive-card">
         <p className="eyebrow">Contact</p>
-        <h2>Let us connect for data science, analytics, BI, or automation opportunities.</h2>
+        <h2>Let us connect for data engineering, analytics engineering, BI, or automation opportunities.</h2>
         <p>
           Based in New York, open to relocate, and authorized to work in the US. I am open to Data Analyst, Data Engineer,
-          BI Developer, AI/ML, and Business Analyst roles starting Summer/Fall 2026.
+          Analytics Engineer, BI Developer, AI/ML, and Business Analyst roles.
         </p>
 
         <div className="contact-actions">

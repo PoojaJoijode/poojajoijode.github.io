@@ -42,3 +42,10 @@ In GitHub, set:
 ```text
 Settings > Pages > Build and deployment > Source > GitHub Actions
 ```
+
+
+## Latest Update
+
+- Added expanded non-duplicate skills across Programming, Data Engineering, Machine Learning / AI, BI & Reporting, Cloud & Tools, Analysis & Strategy, and Documentation & Delivery.
+- Updated the downloadable resume file in `public/assets/Pooja_Joijode_Resume.pdf`.
+- Removed `package-lock.json` to prevent GitHub Actions from using an invalid registry URL.

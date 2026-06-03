@@ -34,7 +34,9 @@ pooja-react-vite-portfolio/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml
+├── .gitignore
 ├── index.html
-├── vite.config.js
 ├── package.json
-└── README.md
+├── vite.config.js
+├── README.md
+└── PROJECT_STRUCTURE.txt

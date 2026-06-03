@@ -5,9 +5,9 @@ const roles = [
     period: 'August 2025 - Present',
     location: 'Potsdam, New York',
     points: [
-      'Built a Python + LaTeX to HTML automation pipeline to transform structured academic content into reusable web outputs, reducing manual publishing effort and improving workflow repeatability.',
-      'Designed a reusable content templating and validation process to standardize updates, improve documentation, and support reproducible workflows across future academic pages.',
-      'Worked directly with faculty stakeholders to gather requirements, prioritize updates, communicate methodology choices, and deliver decision-ready technical outputs.'
+      'Took ownership of a faculty research website that had no update process, then built a Python + LaTeX to HTML pipeline that reduced manual publishing effort and turned a multi-step manual task into a near-automated workflow.',
+      'Designed a reusable content templating system so academic pages can be updated consistently without technical intervention, with the goal of scaling the workflow across other departments.',
+      'Sole developer on the project; worked directly with the professor to scope requirements, prioritize changes, and deliver technical updates.'
     ]
   },
   {
@@ -16,10 +16,9 @@ const roles = [
     period: 'June 2024 - October 2024',
     location: 'Mumbai, India',
     points: [
-      'Built SQL/Python ETL pipelines to extract, clean, validate, and structure learner performance data into analytics-ready datasets.',
-      'Designed Power BI dashboards to monitor engagement, assessment trends, operational KPIs, and performance patterns for weekly stakeholder reviews.',
-      'Automated reporting from raw data ingestion to formatted outputs, reducing weekly data preparation time by 35%.',
-      'Analyzed learner performance trends and translated findings into actionable recommendations.'
+      'Built ETL pipelines in Python to pull, clean, and structure learner performance data from multiple source systems that were previously handled manually in spreadsheets every reporting cycle.',
+      'Designed and maintained Power BI dashboards tracking student engagement, assessment trends, and operational KPIs used in weekly stakeholder reviews.',
+      'Automated the end-to-end reporting workflow from raw data ingestion to formatted output, cutting weekly data preparation time by 35% and eliminating a recurring source of errors.'
     ]
   }
 ];
@@ -29,7 +28,7 @@ function Experience() {
     <section className="section container" id="experience">
       <div className="section-heading centered">
         <p className="eyebrow">Experience</p>
-        <h2>Experience in web automation, ETL, Power BI reporting, and stakeholder delivery.</h2>
+        <h2>Experience in automation, ETL, Power BI reporting, and stakeholder-facing delivery.</h2>
       </div>
 
       <div className="timeline">

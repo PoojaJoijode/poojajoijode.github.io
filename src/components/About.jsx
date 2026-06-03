@@ -3,19 +3,19 @@ function About() {
     <section className="section container" id="about">
       <div className="section-heading">
         <p className="eyebrow">About</p>
-        <h2>Applied analytics with practical business execution.</h2>
+        <h2>Applied data science with strong analytics engineering execution.</h2>
       </div>
 
       <div className="content-card two-column interactive-card">
         <p>
-          I am an Applied Data Science graduate student with 1+ year of experience building SQL/Python pipelines, machine
-          learning models, and BI dashboards for business decision making. My strengths include data preparation,
-          classification, regression, feature engineering, model evaluation, KPI reporting, and stakeholder communication.
+          I am a Data Science graduate student at Clarkson University with experience in ETL pipelines, Power BI
+          dashboards, Python automation workflows, and machine learning models. My work focuses on turning raw,
+          messy data into structured, validated, and business-ready outputs.
         </p>
         <p>
-          My work combines traditional analytics discipline with modern tooling: Python, SQL, Power BI, Tableau, DAX,
-          AWS, Spark, PySpark, Docker, and Streamlit. I focus on clean data pipelines, reliable reporting, and outputs that
-          business teams can actually use.
+          I have processed large datasets, built reusable web automation workflows, developed reporting pipelines,
+          and created dashboards for stakeholder reviews. I am targeting data engineering, analytics engineering,
+          data analyst, BI, and applied analytics roles where technical execution connects directly to business value.
         </p>
       </div>
     </section>

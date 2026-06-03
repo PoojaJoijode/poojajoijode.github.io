@@ -1,14 +1,14 @@
 function Hero() {
-  const highlights = ['Authorized to work in the US', 'Open to relocate', 'Available for Summer/Fall 2026 roles'];
+  const highlights = ['Authorized to work in the US', 'Open to relocate', 'Targeting Data Engineering and Analytics Engineering roles'];
 
   return (
     <section className="hero section-lg container" id="top">
       <div className="hero-content">
-        <p className="eyebrow">Data Scientist | Applied Analytics | BI Developer</p>
-        <h1>Building data products that turn messy data into business decisions.</h1>
+        <p className="eyebrow">Data Science | Data Engineering | BI Analytics</p>
+        <h1>Building data workflows that turn messy data into decision-ready insights.</h1>
         <p className="hero-copy">
-          I build SQL and Python pipelines, machine learning models, and Power BI dashboards that help teams move from
-          raw data to clear, stakeholder-ready recommendations.
+          I build ETL pipelines, Power BI dashboards, Python automation workflows, and ML models that help teams move
+          from raw data to reliable reporting, analysis, and stakeholder-ready recommendations.
         </p>
 
         <div className="hero-highlights" aria-label="Profile highlights">
@@ -36,7 +36,7 @@ function Hero() {
         </div>
         <div className="hero-status">
           <span className="status-dot" />
-          Open to Data Analyst, Data Engineer, BI, AI/ML, and Business Analyst roles
+          Open to Data Analyst, Data Engineer, Analytics Engineer, BI, AI/ML, and Business Analyst roles
         </div>
       </div>
     </section>
