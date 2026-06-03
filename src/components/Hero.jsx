@@ -1,5 +1,5 @@
 function Hero() {
-  const highlights = ['Authorized to work in the US', 'Open to relocate', 'Targeting Data Engineering and Analytics Engineering roles'];
+  const highlights = ['Authorized to work in the US', 'Open to relocate', 'Targeting Data Analyst/Business Analyst and Data Engineering roles'];
 
   return (
     <section className="hero section-lg container" id="top">
