@@ -255,3 +255,21 @@
   gap: 14px;
   margin-top: 28px;
 }
+.cert-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.cert-link small {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.cert-link:hover small {
+  text-decoration: underline;
+}
