@@ -5,7 +5,7 @@ function Hero() {
     <section className="hero section-lg container" id="top">
       <div className="hero-content">
         <p className="eyebrow">Data Science | Data Engineering | BI Analytics</p>
-        <h3>Building data workflows that turn messy data into decision-ready insights.</h3>
+        <h2>Building data workflows that turn messy data into decision-ready insights.</h2>
         <p className="hero-copy">
           I build ETL pipelines, Power BI dashboards, Python automation workflows, and ML models that help teams move
           from raw data to reliable reporting, analysis, and stakeholder-ready recommendations.
