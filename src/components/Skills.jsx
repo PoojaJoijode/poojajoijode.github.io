@@ -1,31 +1,107 @@
 const skillGroups = [
   {
-    title: 'Programming',
-    skills: ['Python', 'Pandas', 'NumPy', 'SciPy', 'scikit-learn', 'SQL', 'R']
+    title: 'Analytics & BI',
+    skills: [
+      'Power BI',
+      'DAX',
+      'Power Query',
+      'Drill-throughs',
+      'Slicers',
+      'Tableau',
+      'Excel',
+      'Pivot Tables',
+      'VLOOKUP',
+      'Conditional Formatting',
+      'Data Visualization',
+      'Statistical Analysis',
+      'A/B Testing',
+      'Ad Hoc Reporting',
+      'Executive Reporting'
+    ]
   },
   {
-    title: 'Data Engineering',
-    skills: ['ETL', 'Data Pipelines', 'Data Modeling', 'Data Cleaning', 'Data Validation', 'REST APIs']
+    title: 'SQL & Data',
+    skills: [
+      'SQL',
+      'CTEs',
+      'Window Functions',
+      'Joins',
+      'Aggregations',
+      'Subqueries',
+      'MySQL',
+      'Data Modeling',
+      'ETL Pipelines',
+      'Data Validation',
+      'Data Cleaning',
+      'Data Quality'
+    ]
   },
   {
-    title: 'Machine Learning / AI',
-    skills: ['NLP', 'RAG', 'LLMs', 'Neural Networks', 'Classification Models', 'Feature Engineering', 'Model Evaluation']
+    title: 'Programming & Engineering',
+    skills: [
+      'Python',
+      'Pandas',
+      'NumPy',
+      'SciPy',
+      'scikit-learn',
+      'Matplotlib',
+      'Seaborn',
+      'R',
+      'REST APIs',
+      'Web Scraping',
+      'Streamlit',
+      'CI/CD',
+      'Agile',
+      'Scrum'
+    ]
   },
   {
-    title: 'BI & Reporting',
-    skills: ['Power BI', 'Tableau', 'DAX', 'KPI Reporting', 'Excel']
+    title: 'Cloud & Infrastructure',
+    skills: [
+      'AWS',
+      'Spark',
+      'PySpark',
+      'Hadoop',
+      'Docker',
+      'Kubernetes',
+      'Git',
+      'GitHub',
+      'Linux',
+      'CLI Tools'
+    ]
   },
   {
-    title: 'Cloud & Tools',
-    skills: ['AWS', 'Spark', 'PySpark', 'MySQL', 'Hadoop', 'Docker', 'Kubernetes', 'Git', 'GitHub', 'Streamlit']
+    title: 'Networking & Technical Support',
+    skills: [
+      'TCP/IP',
+      'HTTP',
+      'TLS/SSL',
+      'DNS',
+      'SSH',
+      'Linux CLI',
+      'Remote Troubleshooting',
+      'Debugging',
+      'Log Analysis',
+      'Incident Triage',
+      'SLA Management',
+      'Ticketing Workflows'
+    ]
   },
   {
-    title: 'Analysis & Strategy',
-    skills: ['Requirements Gathering', 'Stakeholder Analysis', 'Process Mapping', 'Gap Analysis', 'KPI Definition', 'Root Cause Analysis']
-  },
-  {
-    title: 'Documentation & Delivery',
-    skills: ['Business Requirements Documents (BRD)', 'User Stories', 'Workflow Documentation', 'Process Improvement', 'Jira', 'Agile Methodology']
+    title: 'Support & Collaboration',
+    skills: [
+      'Root Cause Analysis',
+      'Technical Documentation',
+      'Jira',
+      'Confluence',
+      'Stakeholder Communication',
+      'Cross-functional Collaboration',
+      'Requirements Gathering',
+      'Customer-facing Communication',
+      'Process Mapping',
+      'Gap Analysis',
+      'KPI Definition'
+    ]
   }
 ];
 
@@ -34,7 +110,7 @@ function Skills() {
     <section className="section container" id="skills">
       <div className="section-heading centered">
         <p className="eyebrow">Skills</p>
-        <h2>A balanced skill set across data engineering, analytics, BI, ML, and business delivery.</h2>
+        <h2>A support-ready analytics skill set across BI, SQL, Python, troubleshooting, documentation, and product workflows.</h2>
       </div>
 
       <div className="skill-grid skill-grid-expanded">

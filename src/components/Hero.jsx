@@ -1,14 +1,19 @@
 function Hero() {
-  const highlights = ['Authorized to work in the US', 'Open to relocate', 'Targeting Data Engineering and Analytics Engineering roles'];
+  const highlights = [
+    'Authorized to work in the US',
+    'Open to relocate',
+    'Targeting Data Analyst, BI Analyst, Technical Support Engineer, and Product Engineer roles'
+  ];
 
   return (
     <section className="hero section-lg container" id="top">
       <div className="hero-content">
-        <p className="eyebrow">Data Science | Data Engineering | BI Analytics</p>
-        <h1>Building data workflows that turn messy data into decision-ready insights.</h1>
+        <p className="eyebrow">Data Analytics | BI Reporting | Technical Support</p>
+        <h1>Solving data, reporting, and product support problems with clear technical execution.</h1>
         <p className="hero-copy">
-          I build ETL pipelines, Power BI dashboards, Python automation workflows, and ML models that help teams move
-          from raw data to reliable reporting, analysis, and stakeholder-ready recommendations.
+          I work across Power BI dashboards, SQL analytics, Python automation, troubleshooting workflows, technical
+          documentation, and stakeholder communication. My strength is connecting analytical thinking with practical
+          support execution so teams can diagnose issues, improve reporting, and make faster decisions.
         </p>
 
         <div className="hero-highlights" aria-label="Profile highlights">
@@ -36,7 +41,7 @@ function Hero() {
         </div>
         <div className="hero-status">
           <span className="status-dot" />
-          Open to Data Analyst, Data Engineer, Analytics Engineer, BI, AI/ML, and Business Analyst roles
+          Open to data analytics, BI, technical support, product support, and product engineering opportunities
         </div>
       </div>
     </section>

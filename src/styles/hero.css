@@ -6,8 +6,9 @@
 }
 
 .hero h1 {
-  max-width: 880px;
-  font-size: clamp(3rem, 6.4vw, 6.2rem);
+  max-width: 780px;
+  font-size: clamp(2.55rem, 4.7vw, 4.85rem);
+  line-height: 1.05;
 }
 
 .hero-copy {

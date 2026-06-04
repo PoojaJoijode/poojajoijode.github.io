@@ -1,32 +1,46 @@
 const projects = [
   {
     title: 'Marketing Campaign ROI and Customer Journey Funnel Analysis',
-    category: 'Power BI | SQL | DAX',
+    category: 'Power BI | SQL | DAX | Stakeholder Reporting',
     date: 'May 2026',
     description:
-      'Built a 4-page Power BI dashboard to analyze campaign spend, revenue, ROAS, CAC, ROI %, funnel conversion, daily trends, and budget recommendations across marketing channels.',
-    outcomes: ['4-page executive dashboard', 'Campaign ROI and channel performance', 'Funnel conversion and drop-off insights', 'Budget optimization recommendations'],
-    tags: ['Power BI', 'SQL', 'DAX', 'ROAS', 'CAC'],
+      'Built SQL analytics tables and Power BI dashboards to calculate spend, revenue, ROAS, CAC, ROI %, and funnel conversion across 50K+ customer journey records.',
+    outcomes: [
+      'Used CTEs, window functions, joins, and aggregations to create reusable analytics tables.',
+      'Performed cohort analysis and customer segmentation to identify funnel drop-off stages.',
+      'Designed reusable DAX measures and stakeholder-ready reporting views for decision support.'
+    ],
+    tags: ['Power BI', 'SQL', 'DAX', 'CTEs', 'Stakeholder Reporting'],
     link: 'https://github.com/PoojaJoijode'
   },
   {
     title: 'Accident Risk Analytics: US Accidents + Census Population',
-    category: 'Python | ML | Data Engineering',
+    category: 'Python | Data Engineering | ML | Documentation',
     date: 'January 2026',
     description:
-      'Built a Python pipeline to process 3M+ US accident records, integrate Census population data, normalize city and state risk metrics, and prepare clean outputs for reporting and ML.',
-    outcomes: ['3M+ accident records processed', '86.6% city-level coverage after enrichment', 'Logistic Regression, Random Forest, and XGBoost compared', 'Best model reached Macro-F1 0.693 and ROC-AUC 0.868'],
-    tags: ['Python', 'XGBoost', 'Random Forest', 'ETL', 'Modeling'],
+      'Engineered a Python data pipeline to ingest, validate, and enrich 3M+ accident records with Census data for geographic risk analysis and model development.',
+    outcomes: [
+      'Performed schema validation, data cleansing, feature engineering, and exploratory analysis.',
+      'Reached 86.6% city-level coverage after Census enrichment.',
+      'Trained Logistic Regression, Random Forest, and XGBoost models with 0.868 ROC-AUC.',
+      'Documented data dictionary and model evaluation metrics for reproducibility.'
+    ],
+    tags: ['Python', 'ETL', 'Data Validation', 'XGBoost', 'EDA'],
     link: 'https://github.com/PoojaJoijode'
   },
   {
     title: 'VPN / IPSec Error Log Analyzer',
-    category: 'Python | NLP | Streamlit | Docker',
+    category: 'Technical Support | Log Analysis | NLP | Docker',
     date: 'November 2025',
     description:
-      'Created a Python pipeline to parse unstructured VPN/IPSec logs into structured outputs and classify noisy entries for faster operations triage.',
-    outcomes: ['TF-IDF + LinearSVC classification', '8 error categories and 3 severity levels', '18 subcategories for triage', 'Streamlit app with upload, filters, CSV export, and Docker deployment'],
-    tags: ['Python', 'NLP', 'Streamlit', 'Docker', 'TF-IDF'],
+      'Developed a troubleshooting-focused Python pipeline to parse noisy VPN/IPSec logs, classify errors, and support faster incident triage and escalation routing.',
+    outcomes: [
+      'Parsed unstructured VPN/IPSec error logs into structured outputs for defect investigation.',
+      'Built a TF-IDF + LinearSVC model across 8 error categories, 3 severity levels, and 18 subcategories.',
+      'Created a Streamlit dashboard with upload, filtered views, and CSV export for non-technical users.',
+      'Wrote troubleshooting runbooks and error taxonomy documentation to reduce mean time to resolution.'
+    ],
+    tags: ['Log Analysis', 'Incident Triage', 'Python', 'Streamlit', 'Docker'],
     link: 'https://github.com/PoojaJoijode'
   }
 ];
@@ -36,7 +50,7 @@ function Projects() {
     <section className="section container" id="projects">
       <div className="section-heading">
         <p className="eyebrow">Projects</p>
-        <h2>Selected work focused on business impact, ML, and automation.</h2>
+        <h2>Selected work connecting analytics, automation, troubleshooting, and product-support thinking.</h2>
       </div>
 
       <div className="project-grid">

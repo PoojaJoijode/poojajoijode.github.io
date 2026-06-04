@@ -5,9 +5,9 @@ const roles = [
     period: 'August 2025 - Present',
     location: 'Potsdam, New York',
     points: [
-      'Took ownership of a faculty research website that had no update process, then built a Python + LaTeX to HTML pipeline that reduced manual publishing effort and turned a multi-step manual task into a near-automated workflow.',
-      'Designed a reusable content templating system so academic pages can be updated consistently without technical intervention, with the goal of scaling the workflow across other departments.',
-      'Sole developer on the project; worked directly with the professor to scope requirements, prioritize changes, and deliver technical updates.'
+      'Built a Python + LaTeX-to-HTML automation pipeline to convert 50+ academic pages into structured web content, reducing manual formatting effort by 60%.',
+      'Created SOP documentation and publishing workflows across 10+ sections, enabling repeatable processes for onboarding, knowledge transfer, and cross-team handoffs.',
+      'Used GitHub for version control, issue tracking, bug reporting, and pull request reviews within Agile sprint cycles.'
     ]
   },
   {
@@ -16,9 +16,9 @@ const roles = [
     period: 'June 2024 - October 2024',
     location: 'Mumbai, India',
     points: [
-      'Built ETL pipelines in Python to pull, clean, and structure learner performance data from multiple source systems that were previously handled manually in spreadsheets every reporting cycle.',
-      'Designed and maintained Power BI dashboards tracking student engagement, assessment trends, and operational KPIs used in weekly stakeholder reviews.',
-      'Automated the end-to-end reporting workflow from raw data ingestion to formatted output, cutting weekly data preparation time by 35% and eliminating a recurring source of errors.'
+      'Built 5+ Power BI dashboards with DAX measures, slicers, and drill-through navigation to track KPIs and business metrics for weekly executive reviews.',
+      'Automated Python ETL workflows including web scraping, data modeling, and reporting pipelines, improving data preparation speed.',
+      'Performed root cause analysis on operational and financial datasets using Excel pivot tables and Python scripts, reducing reporting time by 20%.'
     ]
   }
 ];
@@ -28,7 +28,7 @@ function Experience() {
     <section className="section container" id="experience">
       <div className="section-heading centered">
         <p className="eyebrow">Experience</p>
-        <h2>Experience in automation, ETL, Power BI reporting, and stakeholder-facing delivery.</h2>
+        <h2>Experience across BI dashboards, automation, root cause analysis, documentation, and Agile delivery.</h2>
       </div>
 
       <div className="timeline">
